@@ -1,0 +1,14 @@
+.user-box{
+    background: $pure;
+    position: absolute;
+    top: 0;
+    right: 12%;
+    z-index: 1;
+
+    img{
+        display: block;
+        padding-top: 100px;
+        width: 410px;
+        margin-bottom: -205px;
+    }
+}

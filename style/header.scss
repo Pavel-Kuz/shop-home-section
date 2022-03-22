@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background: $bg;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 0;
+    position: relative;
+    z-index: 100;
+
+    .list-item .item{
+        display: inline-block;
+        margin-left: 1.7rem;
+
+        &:first-child{
+            margin-left: 0;
+        }
+
+        a{
+            font-size: 1.8rem;
+            color: $blue;
+        }
+    }
+}
